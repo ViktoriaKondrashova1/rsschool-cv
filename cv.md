@@ -29,5 +29,19 @@ else:
 ### Work experience:
 * **Media "Production management"**
 2019 - current time
+    + Translation and editorial work. Translation of articles from English to Russian. Editing of articles: creating article structure (title, introduction, conclusion), correction of grammatical and stylistic mistakes, copywriting and rewriting of materials.
+    + Adding articles to the site and html-coding.
+* **MAKEOUT Media** 2018
+    + Translation of articles for Belarusian LGBTQ+ Media.
+### Education:
+* Minsk State Linguistic University (English, French)
+* HTML courses (Codecademy)
+* Python courses (Codecademy)
+* Python courses (Stepik)
+### Languages:
+* English - Upper-Intermediate/Advanced (according to EPAM test)
+* Russian - Native
+* Belarusian - Intermediate
+* French - Elementary
 
 
