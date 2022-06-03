@@ -1,4 +1,5 @@
 # Viktoria Kondrashova
+![photo_2022-06-03_12-51-32](https://user-images.githubusercontent.com/106308348/171850105-9a3a3d38-5a15-49c2-8385-bb781440a574.jpg)
 ### Contacts:
 * **Phone:** +375291707039
 * **E-mail:** kavidmi@gmail.com
