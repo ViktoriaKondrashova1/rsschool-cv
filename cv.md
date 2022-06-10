@@ -5,8 +5,8 @@
 * **E-mail:** kavidmi@gmail.com
 * **Discord:** ViktoriaKondrashova1
 ### About me:
-I'm a 25 year-old girl from Minsk. I graduated from Minsk State Linguistic University and currently I'm working as a Translator of articles about manufacturing companies. I like my job, but I don't want to work as a Translator all my life, so I decided to gain new skills and change my occupation.
-My goal is to learn more about Front-end Development with the help of this course and start a career of a Web Developer.
+I'm a 25 year-old girl from Minsk. I graduated from Minsk State Linguistic University and currently I'm working as a Translator of articles. I would like to gain new skills and change my occupation.
+My goal is to learn more about Front-end Development and start a career of a Web Developer.
 ### Skills:
 * **HTML** (basic knowledge). I completed initial HTML course at Codecademy.
 * **Python** (basic knowledge). I completed initial Python course at Codecademy. I was learning to code in Python on Stepik.
