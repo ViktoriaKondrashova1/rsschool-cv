@@ -24,6 +24,11 @@ body {
   background-color: #4B4949;
 }
 
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 .nav-list {
   display: flex;
   justify-content: center;
@@ -35,20 +40,15 @@ body {
   line-height: 50px;
   text-decoration: none;
   color: #EEEEEE;
-  transition: .3s;
+  transition: .5s;
 }
 
 .nav-link:hover {
-  color: #FFE599;
+  color: #E1CF99;
 }
 
 .main {
   background-color: #F3F6F4;
-}
-
-.container {
-  max-width: 1440px;
-  margin: 0 auto;
 }
 
 .main-container {
@@ -61,24 +61,16 @@ body {
   width: 50%;
 }
 
+.section-profile {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
 .profile-photo {
   width: 420px;
   height: 555px;
   margin-left: 100px;
-}
-
-.section-title {
-  font-size: 20px;
-  font-weight: 600;
-  background-color: #FFE599;
-}
-
-.main-title {
-  font-size: 70px;
-  font-weight: 600;
-  background-color: #F3F6F4;
-  padding-left: 100px;
-  padding-right: 100px;
 }
 
 .section-profile-title {
@@ -89,32 +81,42 @@ body {
   text-align: center;
 }
 
+.section-title {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #E1CF99;
+}
+
+.main-title {
+  font-size: 70px;
+  font-weight: 600;
+  background-color: #F3F6F4;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 .subtitle {
   font-size: 20px;
-}
-
-.section-profile {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-}
-
-.email {
-  text-decoration: none;
-  color: #4B4949;
-}
-
-.email:hover {
-  color: #999999;
 }
 
 .github {
   text-decoration: none;
   color: #4B4949;
+  transition: .5s;
 }
 
 .github:hover {
-  color: #999999;
+  color: #CFBF91;
+}
+
+.email {
+  text-decoration: none;
+  color: #4B4949;
+  transition: .5s;
+}
+
+.email:hover {
+  color: #CFBF91;
 }
 
 .pre {
@@ -125,6 +127,15 @@ body {
   .section {
     width: 100%;
   }
+}
+
+.cv-link {
+  text-decoration: none;
+  transition: .5s;
+}
+
+.cv-link:hover {
+  color: #CFBF91;
 }
 
 .footer {
@@ -138,19 +149,19 @@ body {
   list-style: none;
 }
 
-.github-link {
-  text-decoration: none;
-  color: #EEEEEE;
-  transition: .3s;
-}
-
-.github-link:hover {
-  color: #FFE599;
-}
-
 .footer-item1 {
   line-height: 50px;
   padding-right: 230px;
+}
+
+.github-link {
+  text-decoration: none;
+  color: #EEEEEE;
+  transition: .5s;
+}
+
+.github-link:hover {
+  color: #E1CF99;
 }
 
 .footer-item2 {
