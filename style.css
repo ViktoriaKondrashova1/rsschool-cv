@@ -71,6 +71,7 @@ body {
   width: 420px;
   height: 555px;
   margin-left: 100px;
+  margin-top: 15px;
 }
 
 .section-profile-title {
@@ -91,31 +92,22 @@ body {
   font-size: 70px;
   font-weight: 600;
   background-color: #F3F6F4;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 0px 100px 0px 100px;
+  height: 170px;
 }
 
 .subtitle {
   font-size: 20px;
+  margin: 0;
 }
 
-.github {
+.github, .email {
   text-decoration: none;
   color: #4B4949;
   transition: .5s;
 }
 
-.github:hover {
-  color: #CFBF91;
-}
-
-.email {
-  text-decoration: none;
-  color: #4B4949;
-  transition: .5s;
-}
-
-.email:hover {
+.github:hover, .email:hover, .cert-link:hover, .cv-link:hover, .github-link:hover {
   color: #CFBF91;
 }
 
@@ -129,13 +121,10 @@ body {
   }
 }
 
-.cv-link {
+.cv-link, .cert-link {
   text-decoration: none;
   transition: .5s;
-}
-
-.cv-link:hover {
-  color: #CFBF91;
+  color: #4B4949;
 }
 
 .footer {
@@ -158,10 +147,6 @@ body {
   text-decoration: none;
   color: #EEEEEE;
   transition: .5s;
-}
-
-.github-link:hover {
-  color: #E1CF99;
 }
 
 .footer-item2 {
