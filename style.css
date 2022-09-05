@@ -107,7 +107,7 @@ body {
   transition: .5s;
 }
 
-.github:hover, .email:hover, .cert-link:hover, .cv-link:hover, .github-link:hover {
+.github:hover, .email:hover, .cert-link:hover, .project-link:hover, .github-link:hover {
   color: #CFBF91;
 }
 
@@ -121,7 +121,7 @@ body {
   }
 }
 
-.cv-link, .cert-link {
+.project-link, .cert-link {
   text-decoration: none;
   transition: .5s;
   color: #4B4949;
