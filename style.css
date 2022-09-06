@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #4B4949;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  background-color: #4B4949;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 20px;
+  line-height: 50px;
+  text-decoration: none;
+  color: #EEEEEE;
+  transition: .5s;
+}
+
+.nav-link:hover {
+  color: #E1CF99;
+}
+
+.main {
+  background-color: #F3F6F4;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section {
+  width: 50%;
+}
+
+.section-profile {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.profile-photo {
+  width: 420px;
+  height: 555px;
+  margin-left: 100px;
+  margin-top: 15px;
+}
+
+.section-profile-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #E1CF99;
+}
+
+.main-title {
+  font-size: 70px;
+  font-weight: 600;
+  background-color: #F3F6F4;
+  padding: 0px 100px 0px 100px;
+  height: 170px;
+}
+
+.subtitle {
+  font-size: 20px;
+  margin: 0;
+}
+
+.github, .email {
+  text-decoration: none;
+  color: #4B4949;
+  transition: .5s;
+}
+
+.github:hover, .email:hover, .cert-link:hover, .project-link:hover, .github-link:hover {
+  color: #CFBF91;
+}
+
+.pre {
+  background-color: #EEEEEE;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+.project-link, .cert-link {
+  text-decoration: none;
+  transition: .5s;
+  color: #4B4949;
+}
+
+.footer {
+  background-color: #4B4949;
+  color: #EEEEEE;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.footer-item1 {
+  line-height: 50px;
+  padding-right: 230px;
+}
+
+.github-link {
+  text-decoration: none;
+  color: #EEEEEE;
+  transition: .5s;
+}
+
+.footer-item2 {
+  line-height: 50px;
+  padding-right: 230px;
+  padding-left: 230px;
+}
+
+.footer-item3 {
+  line-height: 50px;
+  padding-left: 230px;
+}
+
+.RS-logo {
+  width: 121px;
+  height: 45px;
+}
