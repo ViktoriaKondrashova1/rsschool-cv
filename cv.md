@@ -1,16 +1,21 @@
 # Viktoria Kondrashova
 ![photo_2022-06-03_12-51-32](https://user-images.githubusercontent.com/106308348/171850105-9a3a3d38-5a15-49c2-8385-bb781440a574.jpg)
 ### Contacts:
+* **Location:** Belarus, Minsk
 * **Phone:** +375291707039
 * **E-mail:** kavidmi@gmail.com
-* **Discord:** ViktoriaKondrashova1
+* **Github:** ViktoriaKondrashova1
+* **Discord:** Kavidmi#7725
 ### About me:
-I'm a 25 year-old girl from Minsk. I graduated from Minsk State Linguistic University and currently I'm working as a Translator of articles. I would like to gain new skills and change my occupation.
+I'm a 26 year-old girl from Minsk. I graduated from Minsk State Linguistic University and currently I'm working as a Translator of articles. I would like to gain new skills and change my occupation.
 My goal is to learn more about Front-end Development and start a career of a Web Developer.
 ### Skills:
-* **HTML** (basic knowledge). I completed initial HTML course at Codecademy.
-* **Python** (basic knowledge). I completed initial Python course at Codecademy. I was learning to code in Python on Stepik.
-* **Adobe Photoshop**, **Illustrator**
+* **HTML** (basics)
+* **CSS** (basics)
+* **Python** (basis)
+* **Javascript** (basics)
+* **Adobe Photoshop**, **Illustrator** (Basics)
+* **GIT**, **Github** (Basics)
 ### Code example:
 **Task:** write a program that takes a list of numbers as input. The program must for each element of this list print the sum of its two neighbors.
 ```
@@ -39,6 +44,7 @@ else:
 * HTML courses (Codecademy)
 * Python courses (Codecademy)
 * Python courses (Stepik)
+* [JS/FE Pre-school](https://app.rs.school/certificate/iybja0nm) (RS school)
 ### Languages:
 * English - Upper-Intermediate/Advanced (according to EPAM test)
 * Russian - Native
