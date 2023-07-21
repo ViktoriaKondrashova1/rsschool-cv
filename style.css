@@ -1,27 +1,36 @@
-* {
+html {
+  scroll-behavior: smooth;
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth; 
+a {
+  text-decoration: none;
+  color: #4b4949;
+}
+
+a:hover {
+  color: #cfbf91;
+  transition: 0.5s;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
-  color: #4B4949;
+  color: #4b4949;
   min-height: 100vh;
-  margin: 0;
-  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 
-.header {
-  background-color: #4B4949;
+.header,
+.footer {
+  background-color: #4b4949;
+  color: #eeeeee;
 }
 
 .container {
@@ -33,22 +42,18 @@ body {
   display: flex;
   justify-content: center;
   list-style: none;
+  gap: 25px;
 }
 
 .nav-link {
   padding: 20px;
   line-height: 50px;
-  text-decoration: none;
-  color: #EEEEEE;
-  transition: .5s;
-}
-
-.nav-link:hover {
-  color: #E1CF99;
+  color: #eeeeee;
 }
 
 .main {
-  background-color: #F3F6F4;
+  background-color: #f3f6f4;
+  padding: 0 20px;
 }
 
 .main-container {
@@ -85,14 +90,33 @@ body {
 .section-title {
   font-size: 20px;
   font-weight: 600;
-  background-color: #E1CF99;
+  background-color: #e1cf99;
+  padding-left: 10px;
+}
+
+.skills__wrap {
+  display: flex;
+}
+
+.skills__list {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.skills__list li {
+  color: #eeeeee;
+  background-color: #4b4949;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
 }
 
 .main-title {
   font-size: 70px;
   font-weight: 600;
-  background-color: #F3F6F4;
-  padding: 0px 100px 0px 100px;
+  background-color: #f3f6f4;
+  padding: 0px 100px;
   height: 170px;
 }
 
@@ -101,66 +125,58 @@ body {
   margin: 0;
 }
 
-.github, .email {
-  text-decoration: none;
-  color: #4B4949;
-  transition: .5s;
+.creation-year {
+  line-height: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
-.github:hover, .email:hover, .cert-link:hover, .project-link:hover, .github-link:hover {
-  color: #CFBF91;
-}
+@media (max-width: 1200px) {
+  .nav-link {
+    padding: 10px;
+  }
 
-.pre {
-  background-color: #EEEEEE;
-}
+  .nav-list {
+    gap: 15px;
+  }
 
-@media (max-width: 768px) {
-  .section {
-    width: 100%;
+  .main-title {
+    padding: 0px 30px;
   }
 }
 
-.project-link, .cert-link {
-  text-decoration: none;
-  transition: .5s;
-  color: #4B4949;
-}
+@media (max-width: 1024px) {
+  .section {
+    width: 100%;
+  }
 
-.footer {
-  background-color: #4B4949;
-  color: #EEEEEE;
-}
+  .nav-list {
+    flex-direction: column;
+    gap: 0;
+    flex-wrap: wrap;
+    height: 230px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
 
-.footer-list {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-}
+  .profile-photo {
+    width: 242px;
+    height: 320px;
+    margin-left: 40px;
+  }
 
-.footer-item1 {
-  line-height: 50px;
-  padding-right: 230px;
-}
+  .main-title {
+    font-size: 42px;
+    padding: 0px 20px;
+  }
 
-.github-link {
-  text-decoration: none;
-  color: #EEEEEE;
-  transition: .5s;
-}
-
-.footer-item2 {
-  line-height: 50px;
-  padding-right: 230px;
-  padding-left: 230px;
-}
-
-.footer-item3 {
-  line-height: 50px;
-  padding-left: 230px;
-}
-
-.RS-logo {
-  width: 121px;
-  height: 45px;
+  @media (max-width: 610px) {
+    .main-title {
+      font-size: 28px;
+      padding: 0px 10px;
+    }
+  }
 }
