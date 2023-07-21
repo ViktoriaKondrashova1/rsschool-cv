@@ -1,0 +1,182 @@
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #4b4949;
+}
+
+a:hover {
+  color: #cfbf91;
+  transition: 0.5s;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #4b4949;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.header,
+.footer {
+  background-color: #4b4949;
+  color: #eeeeee;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 25px;
+}
+
+.nav-link {
+  padding: 20px;
+  line-height: 50px;
+  color: #eeeeee;
+}
+
+.main {
+  background-color: #f3f6f4;
+  padding: 0 20px;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section {
+  width: 50%;
+}
+
+.section-profile {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.profile-photo {
+  width: 420px;
+  height: 555px;
+  margin-left: 100px;
+  margin-top: 15px;
+}
+
+.section-profile-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #e1cf99;
+  padding-left: 10px;
+}
+
+.skills__wrap {
+  display: flex;
+}
+
+.skills__list {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.skills__list li {
+  color: #eeeeee;
+  background-color: #4b4949;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.main-title {
+  font-size: 70px;
+  font-weight: 600;
+  background-color: #f3f6f4;
+  padding: 0px 100px;
+  height: 170px;
+}
+
+.subtitle {
+  font-size: 20px;
+  margin: 0;
+}
+
+.creation-year {
+  line-height: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .nav-link {
+    padding: 10px;
+  }
+
+  .nav-list {
+    gap: 15px;
+  }
+
+  .main-title {
+    padding: 0px 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .section {
+    width: 100%;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 0;
+    flex-wrap: wrap;
+    height: 230px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .profile-photo {
+    width: 242px;
+    height: 320px;
+    margin-left: 40px;
+  }
+
+  .main-title {
+    font-size: 42px;
+    padding: 0px 20px;
+  }
+
+  @media (max-width: 610px) {
+    .main-title {
+      font-size: 28px;
+      padding: 0px 10px;
+    }
+  }
+}
