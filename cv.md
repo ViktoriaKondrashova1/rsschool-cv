@@ -16,3 +16,13 @@
 ### About me:
 
 I graduated from Minsk State Linguistic University and currently working as a manager. I would like to learn more about front-end and gain new skills in web development.
+
+### Skills:
+
+- **HTML5, CSS3**
+- **JavaScript**
+- **TypesScript**
+- **React**
+- **GIT**, **Github**
+- **VS Code**
+- **Adobe Photoshop, Illustrator**
