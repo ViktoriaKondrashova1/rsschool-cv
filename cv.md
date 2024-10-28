@@ -15,7 +15,11 @@
 
 ### About me:
 
-I graduated from Minsk State Linguistic University and currently working as a manager. I would like to learn more about front-end and gain new skills in web development.
+Having graduated from Minsk State Linguistic University I got a job of articles translator and content manager. This remote work take little time, what gives me extra free time, which I spend learning frontend development.
+
+My strengths are high level of English, ambition and fast Learning.
+
+I would like to learn more about frontend development and gain new skills in web development.
 
 ### Skills:
 
