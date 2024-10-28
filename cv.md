@@ -54,6 +54,15 @@ function unluckyDays(year){
   - Translation and editorial work. Translation of articles from English to Russian. Editing of articles: creating article structure (title, introduction, conclusion), correction of grammatical and stylistic mistakes, copywriting and rewriting of materials.
   - Content-management. Adding articles to the site and html-coding.
 
+### Projects:
+
+- [Avocado app, 2023](https://github.com/mitjasha/avocado)
+- [GraphQL Clone, 2023](https://github.com/Aliaksandr-Bychyk/graphiql-app/pull/24)
+- [Online-store, 2023](https://github.com/mitjasha/online-shop/pull/34)
+- [BirdSong quiz, 2022](https://rolling-scopes-school.github.io/viktoriakondrashova1-JSFE2022Q3/songbird/main/)
+- [Online-zoo, 2022](https://rolling-scopes-school.github.io/viktoriakondrashova1-JSFE2022Q3/online-zoo/pages/main/index.html)
+- [Momentum, 2022](https://viktoriakondrashova1-momentum-2.netlify.app/)
+
 ### Education:
 
 - Minsk State Linguistic University (English, French)
