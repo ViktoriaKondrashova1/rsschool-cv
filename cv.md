@@ -10,14 +10,14 @@
 - **Phone:** +375291232323
 - **E-mail:** kavidmi@gmail.com
 - **Discord:** Kavidmi#7725
-- [**Github:**](https://github.com/ViktoriaKondrashova1)
+- [**Github**](https://github.com/ViktoriaKondrashova1)
 - [**LinkedIn**](https://www.linkedin.com/in/%D0%B2%D0%B8%D0%BA%D1%82%D0%BE%D1%80%D0%B8%D1%8F-%D0%BA%D0%BE%D0%BD%D0%B4%D1%80%D0%B0%D1%88%D0%BE%D0%B2%D0%B0-7804781a0/)
 
 ### About me:
 
-Having graduated from Minsk State Linguistic University I got a job of articles translator and content manager. This remote work take little time, what gives me extra free time, which I spend learning frontend development.
+Having graduated from Minsk State Linguistic University I got a job of articles translator and content manager. This remote work takes little time, what gives me extra free time, which I spend learning frontend development.
 
-My strengths are high level of English, ambition and fast Learning.
+My strengths are high level of English, ambition and fast learning.
 
 I would like to learn more about frontend development and gain new skills in web development.
 
@@ -49,3 +49,8 @@ else:
     b.append(a[f - 1] + a[0])
     print(*b)
 ```
+
+### Work experience:
+
+- **Online Media**
+  2019 - current time + Translation and editorial work. Translation of articles from English to Russian. Editing of articles: creating article structure (title, introduction, conclusion), correction of grammatical and stylistic mistakes, copywriting and rewriting of materials. + Content-managment. Adding articles to the site and html-coding.
