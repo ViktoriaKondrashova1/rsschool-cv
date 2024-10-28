@@ -1,8 +1,8 @@
 # Viktoria Kondrashova
 
-### Junior Frontend Developer
+## Junior Frontend Developer
 
-![cv-photo](/assets/images/markdown/markdown.png)
+![cv-photo](/assets/img/IMG_6873.JPG)
 
 ### Contact information:
 
