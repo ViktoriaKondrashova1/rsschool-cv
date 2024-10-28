@@ -53,4 +53,23 @@ else:
 ### Work experience:
 
 - **Online Media**
-  2019 - current time + Translation and editorial work. Translation of articles from English to Russian. Editing of articles: creating article structure (title, introduction, conclusion), correction of grammatical and stylistic mistakes, copywriting and rewriting of materials. + Content-managment. Adding articles to the site and html-coding.
+  2019 - current time
+  - Translation and editorial work. Translation of articles from English to Russian. Editing of articles: creating article structure (title, introduction, conclusion), correction of grammatical and stylistic mistakes, copywriting and rewriting of materials.
+  - Content-managment. Adding articles to the site and html-coding.
+
+### Education:
+
+- Minsk State Linguistic University (English, French)
+- Codecademy HTML course (Basics), 2019
+- Codecademy Python course (Basics), 2021
+- Stepik Python course (Basics), 2021
+- [«JavaScript/Front-end. Stage 0»](https://app.rs.school/certificate/iybja0nm) (The Rolling Scopes school), 2022
+- [«JavaScript/Front-end. Stage 1-2»](https://app.rs.school/certificate/t2eply37) (The Rolling Scopes school), 2023
+- [«JavaScript/Front-end. React» ](https://app.rs.school/certificate/31u1mhso) (The Rolling Scopes school), 2023
+
+### Languages:
+
+- English - Upper-intermediate/Advanced
+- Russian - Native
+- Belarusian - Intermediate
+- French - Elementary
