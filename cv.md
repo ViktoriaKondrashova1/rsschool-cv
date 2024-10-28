@@ -30,3 +30,22 @@ I would like to learn more about frontend development and gain new skills in web
 - **GIT**, **Github**
 - **VS Code**
 - **Adobe Photoshop, Illustrator**
+
+### Code example:
+
+**Task:** write a program that takes a list of numbers as input. The program must for each element of this list print the sum of its two neighbors.
+
+```
+a = [int(i) for i in input().split()]
+if len(a) == 1:
+  print(*a)
+else:
+  f = 0
+  b = []
+  while f < (len(a) - 1):
+    b.append(a[f - 1] + a[f + 1])
+    f += 1
+  if f == (len(a) - 1):
+    b.append(a[f - 1] + a[0])
+    print(*b)
+```
