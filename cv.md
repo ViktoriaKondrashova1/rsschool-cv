@@ -33,21 +33,18 @@ I would like to learn more about frontend development and gain new skills in web
 
 ### Code example:
 
-**Task:** write a program that takes a list of numbers as input. The program must for each element of this list print the sum of its two neighbors.
+**Codewars 7 kyu kata:** find the number of Friday 13th in the given year.
 
 ```
-a = [int(i) for i in input().split()]
-if len(a) == 1:
-  print(*a)
-else:
-  f = 0
-  b = []
-  while f < (len(a) - 1):
-    b.append(a[f - 1] + a[f + 1])
-    f += 1
-  if f == (len(a) - 1):
-    b.append(a[f - 1] + a[0])
-    print(*b)
+function unluckyDays(year){
+  let unlucky = 0;
+  for (var i = 0; i < 12; i++) {
+    if(new Date(year, i, 13).getDay() === 5){
+      unlucky++;
+    }
+  }
+  return unlucky;
+}
 ```
 
 ### Work experience:
@@ -55,7 +52,7 @@ else:
 - **Online Media**
   2019 - current time
   - Translation and editorial work. Translation of articles from English to Russian. Editing of articles: creating article structure (title, introduction, conclusion), correction of grammatical and stylistic mistakes, copywriting and rewriting of materials.
-  - Content-managment. Adding articles to the site and html-coding.
+  - Content-management. Adding articles to the site and html-coding.
 
 ### Education:
 
