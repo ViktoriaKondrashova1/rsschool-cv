@@ -5,7 +5,7 @@ html {
 
 a {
   text-decoration: none;
-  color: #4b4949;
+  color: inherit;
 }
 
 a:hover {
@@ -42,6 +42,11 @@ main {
   margin-bottom: 10%;
 }
 
+.section__title {
+  text-transform: uppercase;
+  padding-left: 30px;
+}
+
 .main-info__text {
   padding: 0 30px;
 }
@@ -50,9 +55,11 @@ main {
   width: 100%;
 }
 
-.section__title {
-  text-transform: uppercase;
-  padding-left: 30px;
+.main-info__divider {
+  border: 3px #627653 solid;
+  border-radius: 0 20% 20% 0;
+  width: 50%;
+  height: 0;
 }
 
 ul {
@@ -65,15 +72,6 @@ ul {
   color: #cfd1c6;
 }
 
-.cv-body a {
-  color: #cfd1c6;
-}
-
-.cv-body a:hover {
-  color: #aaa182;
-  transition: 0.5s;
-}
-
 .skills__wrap {
   display: flex;
   gap: 40px;
@@ -81,4 +79,5 @@ ul {
 
 footer {
   background-color: #cfd1c6;
+  text-align: center;
 }
