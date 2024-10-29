@@ -8,6 +8,11 @@ a {
   color: #4b4949;
 }
 
+a:hover {
+  color: #aaa182;
+  transition: 0.5s;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
@@ -29,8 +34,12 @@ main {
 
 .main-info {
   background-color: #cfd1c6;
-  width: 35%;
+  width: 50%;
   padding: 5% 0;
+}
+
+.section {
+  margin-bottom: 10%;
 }
 
 .main-info__text {
@@ -48,15 +57,26 @@ main {
 
 ul {
   list-style: none;
+  padding-left: 30px;
 }
 
 .cv-body {
-  padding: 5% 0;
+  padding: 20% 10% 5% 10%;
   color: #cfd1c6;
 }
 
 .cv-body a {
   color: #cfd1c6;
+}
+
+.cv-body a:hover {
+  color: #aaa182;
+  transition: 0.5s;
+}
+
+.skills__wrap {
+  display: flex;
+  gap: 40px;
 }
 
 footer {
