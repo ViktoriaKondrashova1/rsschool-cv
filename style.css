@@ -3,16 +3,6 @@ html {
   box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-a:hover {
-  color: #aaa182;
-  transition: 0.5s;
-}
-
 body {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
@@ -26,6 +16,16 @@ body {
   padding: 0;
   background-color: #627653;
   color: #4b4949;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #aaa182;
+  transition: 0.5s;
 }
 
 main {
